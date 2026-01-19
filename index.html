@@ -45,6 +45,11 @@
               <a href="#" onclick="$dc.loadMenuCategories();">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
+            <li id="navSpecialsButton">
+              <!-- This will call your random category loader -->
+              <a href="#" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');">
+                <span class="glyphicon glyphicon-star"></span><br class="hidden-xs"> Specials</a>
+            </li>
             <li>
               <a href="#">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
@@ -57,10 +62,10 @@
               <a href="tel:410-602-5008">
                 <span>410-602-5008</span></a><div>* We Deliver</div>
             </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <div id="call-btn" class="visible-xs">
